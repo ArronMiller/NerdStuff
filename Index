@@ -1,0 +1,92 @@
+NerdStuff
+Just a link to cool nerd stuff
+
+Name: firecrawl/firecrawl
+Category: Web Scraping
+API/library that turns websites into clean, LLM-ready markdown and structured data. Built so AI agents can crawl, search, and extract web content without brittle scrapers.
+Usecase: Point an agent at a docs site or competitor blog and get structured markdown/JSON for RAG, monitoring, or research pipelines. Handy anytime you need reliable crawl + extract without writing custom scrapers.
+Link: https://github.com/firecrawl/firecrawl
+
+Name: bytedance/UI-TARS
+Category: GUI Agent
+Research project for agents that operate UIs by seeing the screen and taking actions. Aims at automated GUI interaction with native agent models rather than hand-written scripts.
+Usecase: Prototype agents that click through apps or websites from screenshots instead of brittle selectors. Useful for UI automation research, QA demos, or “computer use” style workflows.
+Link: https://github.com/bytedance/UI-TARS
+
+Name: Panniantong/Agent-Reach
+Category: Agent Scraping
+CLI that lets AI agents read/search platforms like Twitter, Reddit, YouTube, and GitHub without paid APIs. Framed as free agent infrastructure for web/social content access.
+Usecase: Let a coding/research agent pull posts, comments, or transcripts from social platforms without buying API access. Good for trend watching, content digests, or agent toolchains that need live web/social context.
+Link: https://github.com/Panniantong/Agent-Reach
+
+Name: facebookresearch/brain2qwerty
+Category: Brain Decoding
+Research code that reconstructs typed sentences from non-invasive MEG/EEG signals. Uses a CNN encoder, transformer, and character-level language model for brain-to-text decoding.
+Usecase: Study or reproduce brain-to-text experiments that decode typing from MEG/EEG. Relevant for BCI research, assistive communication prototypes, and neural decoding benchmarks.
+Link: https://github.com/facebookresearch/brain2qwerty
+
+Name: ruvnet/RuView
+Category: WiFi Sensing
+Turns commodity WiFi RF into spatial awareness: presence, pose-like signals, and vital-sign style monitoring without cameras. Targets IoT/home-automation style spatial intelligence.
+Usecase: Build privacy-friendlier presence or motion sensing with WiFi instead of cameras. Fits smart-home occupancy, fall/activity experiments, or RF-based spatial monitoring demos.
+Link: https://github.com/ruvnet/RuView
+
+Name: sherlock-project/sherlock
+Category: OSINT Tool
+Looks up a username across many social networks to find matching accounts. Common OSINT/recon CLI for username hunting.
+Usecase: Check where a handle exists across platforms for OSINT, brand monitoring, or account discovery. Useful for recon on a username before deeper investigation.
+Link: https://github.com/sherlock-project/sherlock
+
+Name: 666ghj/MiroFish
+Category: Swarm Simulation
+Multi-agent “swarm intelligence” engine aimed at forecasting and social/public-opinion style prediction. Uses LLM agents plus knowledge-graph style memory for simulation.
+Usecase: Simulate crowds of LLM agents to explore how opinions or markets might move under a scenario. Useful for forecasting sandboxes, social dynamics experiments, or multi-agent “what-if” analysis.
+Link: https://github.com/666ghj/MiroFish
+
+Name: tashfeenahmed/freellmapi
+Category: LLM Gateway
+Single OpenAI-compatible /v1 endpoint that routes across many free LLM providers with failover. Meant for personal experimentation, not production billing.
+Usecase: Hit one /v1 endpoint for free model hopping while prototyping agents or chat apps. Handy for local experiments when you don’t want to wire every free provider yourself.
+Link: https://github.com/tashfeenahmed/freellmapi
+
+Name: camel-ai/oasis
+Category: Agent Simulation
+Open framework for large-scale social simulations with LLM agents (up to ~one million). Used to study AI societies and agent interaction dynamics.
+Usecase: Run large multi-agent social sims to study rumor spread, group behavior, or platform dynamics. Good for research demos and stress-testing agent societies at scale.
+Link: https://github.com/camel-ai/oasis
+
+Name: PurpleDoubleD/locally-uncensored
+Category: Local AI
+Desktop all-in-one local AI studio: chat, image/video generation, and a coding agent. Offline-oriented, no Docker/cloud required on Windows/Linux.
+Usecase: Run chat, image/video gen, and a coding agent on your own machine without cloud accounts. Useful for private offline creative/dev work in one desktop app.
+Link: https://github.com/PurpleDoubleD/locally-uncensored
+
+Name: agent0ai/agent-zero
+Category: AI Agent
+General-purpose autonomous AI agent framework/assistant. Designed to run tools and complete open-ended tasks with minimal hardcoding.
+Usecase: Spin up a general agent that can use tools to research, code, or automate multi-step tasks. Fits personal assistants and open-ended agent experiments with less custom glue.
+Link: https://github.com/agent0ai/agent-zero
+
+Name: eracle/OpenOutreach
+Category: Sales Agent
+Self-hosted AI SDR for B2B lead gen: finds ICP fits, explains why, and emails from your mailbox. CLI/agentic outreach automation.
+Usecase: Describe a product and have an agent find matching leads, justify the fit, and draft/send outreach from your mailbox. Useful for self-hosted B2B prospecting instead of a SaaS SDR.
+Link: https://github.com/eracle/OpenOutreach
+
+Name: eleutherai/pythia
+Category: Model Research
+EleutherAI hub for interpretability and learning-dynamics work around the Pythia model suite. Focused on studying how LLMs train and what they learn, not an end-user app.
+Usecase: Analyze how language models change during training with the Pythia suite and related tools. Useful for interpretability papers, learning-dynamics studies, and reproducible LLM science.
+Link: https://github.com/eleutherai/pythia
+
+Name: Wan-Video/Wan2.2
+Category: Video Generation
+Open large-scale video generative models (Wan series). Used to create/generate video from generative AI pipelines.
+Usecase: Generate short videos from text/image prompts with open Wan models. Fits local or self-hosted AIGC pipelines for creative or product demos.
+Link: https://github.com/Wan-Video/Wan2.2
+
+Name: cheaper-inference/OmniRoute
+Category: LLM Gateway
+MIT AI gateway that exposes one endpoint across hundreds of providers/models with quota-aware fallback. Aimed at coding agents (Cursor, Claude Code, etc.) plus token-saving routing.
+Usecase: Point Cursor/Claude Code/Codex at one gateway and auto-fail over across free/paid models when quotas hit. Useful for cheaper multi-provider inference and token-saving routing without changing your IDE setup.
+Link: https://github.com/cheaper-inference/OmniRoute
